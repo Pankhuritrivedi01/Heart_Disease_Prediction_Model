@@ -22,7 +22,9 @@ Evaluation Metric: Accuracy Score
 📂 Dataset
 
 Heart Disease Dataset sourced from Kaggle (derived from the UCI Heart Disease dataset)
+
 Dataset: [Heart Disease Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction)
+
 The dataset contains clinical features such as:
 - Age
 - Gender
@@ -55,6 +57,7 @@ Logistic Regression and Random Forest models showed strong predictive capability
 Identified key contributing features such as age, chest pain type, and maximum heart rate
 
 ▶️ How to Run
+
 git clone <repository-url>
 cd heart-disease-prediction
 pip install -r requirements.txt
@@ -67,9 +70,6 @@ python main.py
 
 1.A Comprehensive Machine Learning Framework for Heart Disease Prediction: Performance Evaluation and Future Perspectives
 Ali Azimi Lamir et al. — Proposes an ML framework using Logistic Regression, KNN, and Random Forest, with detailed performance evaluation and tuning approaches.
-
-2.Advancements in Heart Disease Prediction: A Machine Learning Approach for Early Detection and Risk Assessment
-Balaji S. Ingole et al. — Evaluates multiple ML models (including Logistic Regression and SVM) and discusses feature importance and predictive performance.
 
 3.Heart Disease Prediction Using Machine Learning Techniques
 D. Ratna Kumari et al. — Uses KNN and Random Forest on the Kaggle (UCI) dataset to evaluate heart disease classification accuracy.
