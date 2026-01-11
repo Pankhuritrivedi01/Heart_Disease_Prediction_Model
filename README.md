@@ -1,29 +1,36 @@
 # Heart_Disease_Prediction_Model
 End-to-end machine learning project for heart disease prediction using supervised learning techniques.
 
-📌 Project Overview
 
-A machine learning project that predicts the likelihood of heart disease using patient clinical data. This project demonstrates a complete supervised ML pipeline, including data preprocessing, model training, evaluation, and prediction.
+## 📌 Project Overview
 
-🎯 Objective
+A resume-ready machine learning project that predicts the likelihood of heart disease using patient clinical data. This project demonstrates a complete supervised ML pipeline, including data preprocessing, model training, evaluation, and prediction.
+
+---
+
+## 🎯 Objective
 
 To build an accurate and interpretable classification model for early heart disease risk prediction using medical attributes.
 
-🛠️ Tech Stack
+---
 
-Language: Python
+## 🛠️ Tech Stack
 
-Libraries: NumPy, Pandas, Scikit-learn
+* **Language:** Python
+* **Libraries:** NumPy, Pandas, Scikit-learn
+* **Model:** Logistic Regression
+* **Evaluation Metric:** Accuracy Score
 
-Model: Logistic Regression
+---
 
-Evaluation Metric: Accuracy Score
+## 📂 Dataset
 
-📂 Dataset
+* Heart Disease Dataset sourced from **Kaggle** (derived from the UCI Heart Disease dataset)
+## 📂 Dataset
 
-Heart Disease Dataset sourced from Kaggle (derived from the UCI Heart Disease dataset)
+This project uses the **Heart Disease Prediction** dataset from **Kaggle**:
 
-Dataset: [Heart Disease Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction)
+🔗 https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
 
 The dataset contains clinical features such as:
 - Age
@@ -36,49 +43,66 @@ The dataset contains clinical features such as:
 
 The target variable indicates the presence (1) or absence (0) of heart disease.
 
-🔄 Methodology
 
-Data loading and preprocessing
+---
 
-Exploratory Data Analysis (EDA)
+## 🔄 Methodology
 
-Feature scaling and train-test split
+1. Data loading and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature scaling and train-test split
+4. Model training using supervised ML algorithms
+5. Model evaluation using accuracy and confusion matrix
 
-Model training using supervised ML algorithms
+---
 
-Model evaluation using accuracy and confusion matrix
+## 📊 Results
 
-📊 Results
+* Achieved reliable classification performance on test data
+* Logistic Regression and Random Forest models showed strong predictive capability
+* Identified key contributing features such as age, chest pain type, and maximum heart rate
 
-Achieved reliable classification performance on test data
+---
 
-Logistic Regression and Random Forest models showed strong predictive capability
+## ▶️ How to Run
 
-Identified key contributing features such as age, chest pain type, and maximum heart rate
-
-▶️ How to Run
-
+```bash
 git clone <repository-url>
 cd heart-disease-prediction
 pip install -r requirements.txt
 python main.py
+```
+
+---
+
+## 📺 Reference
+
+* A Comprehensive Machine Learning Framework for Heart Disease Prediction: Performance Evaluation and Future Perspectives
+  Ali Azimi Lamir et al. — Proposes an ML framework using Logistic Regression, KNN, and Random Forest, with detailed performance evaluation and tuning approaches.
+
+* Advancements in Heart Disease Prediction: A Machine Learning Approach for Early Detection and Risk Assessment
+  Balaji S. Ingole et al. — Evaluates multiple ML models (including Logistic Regression and SVM) and discusses feature importance and predictive performance.
 
 
+---
 
-
-📺 Reference
-
-1.A Comprehensive Machine Learning Framework for Heart Disease Prediction: Performance Evaluation and Future Perspectives
-Ali Azimi Lamir et al. — Proposes an ML framework using Logistic Regression, KNN, and Random Forest, with detailed performance evaluation and tuning approaches.
-
-3.Heart Disease Prediction Using Machine Learning Techniques
-D. Ratna Kumari et al. — Uses KNN and Random Forest on the Kaggle (UCI) dataset to evaluate heart disease classification accuracy.
-
-
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended for educational purposes only and is not a substitute for professional medical diagnosis.
 
-📜 License
+---
+
+## 👤 Author
+
+<Pankhuri Trivedi>
+
+---
+
+## 📜 License
 
 MIT License
+
+
+
+
+
