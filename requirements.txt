@@ -1,0 +1,8 @@
+numpy → numerical computation
+pandas pandas → data handling
+scikit-learn → Logistic Regression, train-test split, accuracy score
+
+
+
+
+ 
