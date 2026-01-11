@@ -4,7 +4,7 @@ End-to-end machine learning project for heart disease prediction using supervise
 
 ## 📌 Project Overview
 
-A resume-ready machine learning project that predicts the likelihood of heart disease using patient clinical data. This project demonstrates a complete supervised ML pipeline, including data preprocessing, model training, evaluation, and prediction.
+A machine learning project that predicts the likelihood of heart disease using patient clinical data. This project demonstrates a complete supervised ML pipeline, including data preprocessing, model training, evaluation, and prediction.
 
 ---
 
@@ -89,12 +89,6 @@ python main.py
 ## ⚠️ Disclaimer
 
 This project is intended for educational purposes only and is not a substitute for professional medical diagnosis.
-
----
-
-## 👤 Author
-
-<Pankhuri Trivedi>
 
 ---
 
