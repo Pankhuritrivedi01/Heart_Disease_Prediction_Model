@@ -25,9 +25,6 @@ To build an accurate and interpretable classification model for early heart dise
 
 ## 📂 Dataset
 
-* Heart Disease Dataset sourced from **Kaggle** (derived from the UCI Heart Disease dataset)
-## 📂 Dataset
-
 This project uses the **Heart Disease Prediction** dataset from **Kaggle**:
 
 🔗 https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
