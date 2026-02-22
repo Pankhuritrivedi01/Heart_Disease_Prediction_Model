@@ -83,17 +83,5 @@ python main.py
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is intended for educational purposes only and is not a substitute for professional medical diagnosis.
-
----
-
-## 📜 License
-
-MIT License
-
-
-
 
 
