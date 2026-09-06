@@ -1,87 +1,99 @@
-# Heart_Disease_Prediction_Model
-End-to-end machine learning project for heart disease prediction using supervised learning techniques.
+# Heart Disease Prediction — Logistic Regression
 
+A supervised machine learning project that predicts the presence or absence of heart disease from **13 clinical features** using **Logistic Regression**.
 
-## 📌 Project Overview
-
-A machine learning project that predicts the likelihood of heart disease using patient clinical data. This project demonstrates a complete supervised ML pipeline, including data preprocessing, model training, evaluation, and prediction.
+The project focuses on building and evaluating a complete ML pipeline rather than reporting accuracy alone.
 
 ---
 
-## 🎯 Objective
+## Results
 
-To build an accurate and interpretable classification model for early heart disease risk prediction using medical attributes.
-
----
-
-## 🛠️ Tech Stack
-
-* **Language:** Python
-* **Libraries:** NumPy, Pandas, Scikit-learn
-* **Model:** Logistic Regression
-* **Evaluation Metric:** Accuracy Score
-
----
-
-## 📂 Dataset
-
-This project uses the **Heart Disease Prediction** dataset from **Kaggle**:
-
-🔗 https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
-
-The dataset contains clinical features such as:
-- Age
-- Gender
-- Chest pain type
-- Resting blood pressure
-- Serum cholesterol
-- Maximum heart rate achieved
-- Other heart-related health measurements
-
-The target variable indicates the presence (1) or absence (0) of heart disease.
-
+| Metric             |           Score |
+| ------------------ | --------------: |
+| Dataset            | **303 samples** |
+| Features           |          **13** |
+| Train / Test       |    **242 / 61** |
+| Test Accuracy      |      **80.33%** |
+| Precision          |      **76.92%** |
+| Recall             |      **90.91%** |
+| F1 Score           |      **83.33%** |
+| ROC-AUC            |      **0.8690** |
+| 5-Fold CV Accuracy |      **83.09%** |
 
 ---
 
-## 🔄 Methodology
+## Approach
 
-1. Data loading and preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature scaling and train-test split
-4. Model training using supervised ML algorithms
-5. Model evaluation using accuracy and confusion matrix
-
----
-
-## 📊 Results
-
-* Achieved reliable classification performance on test data
-* Logistic Regression and Random Forest models showed strong predictive capability
-* Identified key contributing features such as age, chest pain type, and maximum heart rate
-
----
-
-## ▶️ How to Run
-
-```bash
-git clone <repository-url>
-cd heart-disease-prediction
-pip install -r requirements.txt
-python main.py
+```text
+Dataset
+   ↓
+Data Exploration & Quality Checks
+   ↓
+Stratified 80/20 Train-Test Split
+   ↓
+StandardScaler
+   ↓
+Logistic Regression
+   ↓
+Classification + Probability Prediction
+   ↓
+Evaluation & Cross-Validation
 ```
 
+### Key implementation decisions
+
+* Used **stratified splitting** to preserve class distribution.
+* Applied **StandardScaler**, fitting it only on training data to avoid data leakage.
+* Used **Logistic Regression** because it is appropriate for binary classification and provides interpretable coefficients.
+* Evaluated using **Accuracy, Precision, Recall, F1, ROC-AUC and Confusion Matrix** instead of accuracy alone.
+* Used **5-fold cross-validation** to check performance consistency.
+* Used `predict_proba()` to obtain model-estimated class probabilities.
+* Analyzed Logistic Regression coefficients for basic model interpretability.
+
 ---
 
-## 📺 Reference
+## Dataset
 
-* A Comprehensive Machine Learning Framework for Heart Disease Prediction: Performance Evaluation and Future Perspectives
-  Ali Azimi Lamir et al. — Proposes an ML framework using Logistic Regression, KNN, and Random Forest, with detailed performance evaluation and tuning approaches.
+**Source:** Kaggle — Heart Disease Prediction Dataset
+https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
 
-* Advancements in Heart Disease Prediction: A Machine Learning Approach for Early Detection and Risk Assessment
-  Balaji S. Ingole et al. — Evaluates multiple ML models (including Logistic Regression and SVM) and discusses feature importance and predictive performance.
+**Size:** 303 samples × 14 columns
+**Inputs:** 13 features
+**Target:** `target` → 0 / 1
 
+Features include age, sex, chest pain type, resting blood pressure, cholesterol, maximum heart rate, exercise-induced angina, ST depression and other clinical attributes.
 
 ---
 
+## Tech Stack
+
+**Python · Pandas · NumPy · Matplotlib · Scikit-learn · Jupyter/Google Colab**
+
+---
+
+## Key Takeaway
+
+The model achieved **80.33% test accuracy**, **90.91% recall**, and **0.8690 ROC-AUC**, while maintaining a **3.97 percentage-point gap** between training and testing accuracy.
+
+The project demonstrates practical understanding of **data preprocessing, leakage prevention, classification, model evaluation, cross-validation and interpretability**.
+
+---
+
+## Future Improvements
+
+* Compare Logistic Regression with Random Forest, SVM and XGBoost
+* Hyperparameter tuning
+* Probability calibration
+* External validation on an independent dataset
+* Streamlit/FastAPI deployment
+
+---
+
+### Author
+
+**Pankhuri Trivedi**
+B.Tech Bioinformatics | Amity University, Noida
+
+Interested in **Machine Learning · AI · Healthcare · Bioinformatics**
 
 
